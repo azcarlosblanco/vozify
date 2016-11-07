@@ -1,0 +1,23 @@
+section.first {
+    .banner {
+        height: 40vh;
+        padding-top: 20vh;
+        h2 {
+            color: #58627c;
+            font-size: 3em;
+            margin: 0;
+        }
+        p {
+            color:#4a4a4a;
+            font-size: 2.5em;
+            font-weight: 100;
+            span {
+                color: #eb2546;
+            }
+        }
+        .row {
+            transform: translateY(-50%);
+            margin-right: 0;
+        }
+    }
+}
