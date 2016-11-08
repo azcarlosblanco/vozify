@@ -282,11 +282,6 @@ header {
 @media (max-width: 360px) {
     header {
       height: 130vh;
-      background: url("/../assets/images/hero@3x.jpg") no-repeat 0% 0%;
-      background-size: cover;
-      padding-bottom: 120px;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-weight: 500;
       .navbar {
         padding-top: 5px;
         padding-bottom: 5px;
@@ -329,6 +324,150 @@ header {
         }
         .arrow.center {
             margin-top: 5em;
+        }
+      }
+    }
+}
+
+@media (min-width: $screen-xs-min) and (max-width: $screen-xs-max) {
+    header {
+      height: 120vh;
+      .navbar {
+        padding-top: 2px;
+        padding-bottom: 5px;
+        .navbar-brand {
+          img {
+            height: 44.5px;
+            left: 0px;
+          }
+        }
+      }
+      .header-content {
+        margin-top: 0vh;
+        h1 {
+          font-size: 3em;
+        }
+        p {
+          font-size: 1.5em;
+          margin-bottom: 10px;
+        }
+        .row:nth-child(2) {
+            p {
+                font-size: 1em;
+            }
+            .img-responsive.left {
+                width: 50% !important;
+                margin-left: 20%;
+            }
+            .img-responsive.right {
+                margin-top: 0em;
+                width: 80%;
+                margin-left: 12%;
+            }
+            .button-center {
+                margin-top: 13em;
+                font-size: 1.2em;
+
+            }
+        }
+        .arrow.center {
+            margin-top: -1em;
+        }
+      }
+    }
+}
+
+@media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    header {
+      height: 100vh;
+      .navbar {
+        padding-top: 2px;
+        padding-bottom: 5px;
+        .navbar-brand {
+          img {
+            height: 54.5px;
+            left: 0px;
+          }
+        }
+      }
+      .header-content {
+        margin-top: 5vh;
+        h1 {
+          font-size: 3.5em;
+        }
+        p {
+          font-size: 2em;
+          margin-bottom: 10px;
+        }
+        .row:nth-child(2) {
+            p {
+                font-size: 1em;
+            }
+            .img-responsive.left {
+                width: 75% !important;
+                margin-left: 20%;
+            }
+            .img-responsive.right {
+                margin-top: 3.5em;
+                width: 90%;
+                margin-left: 12%;
+            }
+            .button-center {
+                margin-top: 1em;
+                font-size: 1.2em;
+
+            }
+        }
+        .arrow.center {
+            margin-top: 4em;
+        }
+      }
+    }
+}
+
+@media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    header {
+      .navbar {
+        padding-top: 12px;
+        padding-bottom: 10px;
+        .navbar-brand {
+          img {
+            height: 54.5px;
+            left: 0px;
+          }
+        }
+      }
+      .header-content {
+        margin-top: 5vh;
+        h1 {
+          font-size: 3.5em;
+        }
+        p {
+        color: black !important;
+          font-size: 2.5em;
+          margin-bottom: 10px;
+        }
+        .row:nth-child(2) {
+            p {
+                font-size: 1.5em;
+            }
+            .img-responsive.left {
+                width: 75% !important;
+                margin-left: 10%;
+            }
+            .img-responsive.right {
+                margin-top: 3.5em;
+                width: 90%;
+                margin-left: 6%;
+            }
+            .button-center {
+                margin-top: 1em;
+                font-size: 1.2em;
+
+            }
+        }
+        .arrow.center {
+            margin-top: 1.5em;
         }
       }
     }
